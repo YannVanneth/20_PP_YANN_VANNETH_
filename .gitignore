@@ -4,3 +4,5 @@ __pycache__/
 *.pyc
 chroma_db/
 qdrant_storage/
+config.bat
+node_modules

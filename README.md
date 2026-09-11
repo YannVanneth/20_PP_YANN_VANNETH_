@@ -27,7 +27,6 @@ you can ask it questions about the docs in `data/` right in the terminal.
 ### quickstart
 
 ```bash
-cd basic_rag
 uv sync                              # installs everything
 
 uv run python demo_vector_check.py   # step 4 - just checks the vector store works
