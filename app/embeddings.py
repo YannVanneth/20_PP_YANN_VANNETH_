@@ -1,6 +1,6 @@
 from typing import List
 import ollama
-from . import config
+from app import config
 
 
 def embed_texts(texts: List[str]) -> List[List[float]]:

@@ -4,7 +4,7 @@ from typing import Dict, List
 from qdrant_client import QdrantClient
 from qdrant_client.models import Distance, PointStruct, VectorParams
 
-from . import config
+from app import config
 
 _ID_NAMESPACE = uuid.UUID("12345678-1234-5678-1234-567812345678")
 

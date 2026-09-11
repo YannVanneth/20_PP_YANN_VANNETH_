@@ -1903,7 +1903,7 @@ wheels = [
 ]
 
 [[package]]
-name = "rag-baseline-app"
+name = "rag-baseline-homework"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [

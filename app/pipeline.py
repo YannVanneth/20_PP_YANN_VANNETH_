@@ -1,9 +1,9 @@
 from typing import List, Optional, Tuple
-from . import config
-from .retriever import retrieve
-from .generator import generate_answer
-from .ingestion import build_index
-from .vector_store import get_collection
+from app import config
+from app.retriever import retrieve
+from app.generator import generate_answer
+from app.ingestion import build_index
+from app.vector_store import get_collection
 
 class Pipeline:
     def __init__(self, auto_index: bool = True):

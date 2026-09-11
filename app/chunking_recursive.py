@@ -1,5 +1,5 @@
 from typing import List
-from . import config
+from app import config
 
 def recursive_chunk_text(text: str, chunk_size: int = config.CHUNK_SIZE) -> List[str]:
     if not text or not text.strip():

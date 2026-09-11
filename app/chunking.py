@@ -1,5 +1,5 @@
 from typing import List
-from . import config
+from app import config
 
 
 def chunk_text(

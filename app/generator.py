@@ -1,6 +1,6 @@
 from typing import List
 import ollama
-from . import config
+from app import config
 
 def generate_answer(question: str, chunks: List[str]) -> str:
     context = "\n\n---\n\n".join(chunks) if chunks else "No relevant context found."

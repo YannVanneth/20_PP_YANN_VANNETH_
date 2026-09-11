@@ -1,7 +1,7 @@
 from typing import List
 import chromadb
 from chromadb import Settings
-from . import config
+from app import config
 
 _CHROMA_SETTING = Settings(anonymized_telemetry=False)
 

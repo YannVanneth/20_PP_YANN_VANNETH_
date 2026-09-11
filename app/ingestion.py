@@ -2,10 +2,10 @@ import mimetypes
 import os
 from typing import List, Tuple
 
-from . import config
-from .chunking import chunk_text
-from .embeddings import embed_texts
-from .vector_store import get_collection
+from app import config
+from app.chunking import chunk_text
+from app.embeddings import embed_texts
+from app.vector_store import get_collection
 
 
 def load_documents(dir_path: str = config.DATA_DIR) -> List[Tuple[str, str]]:
